@@ -1,10 +1,30 @@
 <html>
+  <style type=text/css>    
+    body {
+      font-family: Verdana;
+      line-height: 2;
+      color: WHITE;
+      background-color: #DEB887; }
+    h1 {
+      color: white;
+      font-weight: bold;
+       }  
+  </style>
+  
   <body>
   <h1> Number Cruncher </h1>
     <script src="values.js"> </script>
   
   <p> List of Numbers: </p>
   <p> [11,4,41,50,7,19,8,18,2,6,43,6,20,43,2,23,12,24,31,2] </p>
+  
+  <button onclick="createList()" type="button" id="startButton">Click Here to Calculate Measures of Central Tendency</button>
+  
+  <ol>  
+    <li id="mean"></li>
+    <li id="mode"></li>
+    <li id="median"></li>
+  </ol>
   
   <ol>
     <li> Mean: 19.95</li>
